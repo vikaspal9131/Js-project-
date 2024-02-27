@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #800600;
+  color: white;
+  padding: 1rem ;
+}
+
+
+.navbar .logo{
+  color: antiquewhite;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+
+
+#search-input{
+  max-width: 400px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#search-btn{
+  max-width: 200px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  background: none;
+  color: white;
+}
+
+.search-contant{
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blog-card img{
+  width: 100%;
+
+}
+
+
+.blog-container{
+ padding: 3rem 0;
+ display: flex;
+ align-items: flex-start;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+}
+
+.blog-card{
+  width: 280px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1rem;
+  margin:10px ;
+
+
+}
